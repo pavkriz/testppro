@@ -19,7 +19,7 @@ public class HomeContoller {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
-		return "Hello";
+		return "Hello world";
 	}
 
 }
